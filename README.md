@@ -2,5 +2,5 @@
 中州韵插件
 
 ``````
-git clone git@github.com:98wb/librime-lua.git
+git clone https://github.com/98wb/librime-lua.git
 ``````
