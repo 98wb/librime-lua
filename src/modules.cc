@@ -7,7 +7,7 @@
 void types_init(lua_State *L);
 
 static void lua_init(lua_State *L) {
-  const char *user_dir = RimeGetUserDataDir();
+  const char *user_dir = RimeGetSharedDataDir();
   types_init(L);
   lua_getglobal(L, "package");
   lua_pushfstring(L, "%s%slua%s?.lua;%s%slua%s?%sinit.lua;",
